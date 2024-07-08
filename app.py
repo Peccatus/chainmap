@@ -7,7 +7,7 @@ from dash import html, dcc, Input, Output
 import numpy as np
 
 # Read stakeholder data from Excel
-df = pd.read_excel('/stakeholders.xlsx', header=5)
+df = pd.read_excel('stakeholders.xlsx', header=5)
 
 # Create a graph
 G = nx.Graph()
